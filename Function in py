@@ -1,0 +1,13 @@
+Functions::
+def my_function():
+  print("Hello from a function")
+
+my_function()
+
+With Arguments:
+def my_function(fname):
+  print(fname + "Python")
+
+my_function("file handling can be in")
+my_function("Database handling")
+my_function("web development can be done in”)

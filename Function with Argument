@@ -1,0 +1,23 @@
+def my_function(fname, lname):
+  print(fname + " " + lname)
+
+my_function("SRI", "Rekha")
+If number of arguments are unknown add a *before the parameter 
+def my_function(*kids):
+  print("The youngest child is " + kids[2])
+
+my_function("ABC", "XYZ", "LMN")
+You can also send arguments with the key = value syntax
+
+def my_function(child3, child2, child1):
+  print("The youngest child is " + child3)
+
+my_function(child1 = "ABC", child2 = "LMN", child3 = "XYZ")
+Default parameter value:
+
+def my_function(country = "Norway"):
+  print("I am from " + country)
+
+my_function("Sweden")
+my_function()
+my_function("Brazil")

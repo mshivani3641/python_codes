@@ -1,0 +1,8 @@
+thislist = 
+["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"] 
+print(thislist[1]) 
+print(thislist[-1]) 
+print(thislist[2:5]) 
+print(thislist[:4]) #returns list of items not including KIWI 
+print(thislist[2:])#returns items from cherry 
+print(thislist[-4:-1]
